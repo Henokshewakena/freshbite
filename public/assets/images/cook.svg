@@ -1,0 +1,17 @@
+<svg width="181" height="151" viewBox="0 0 181 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-park-solid:cook">
+<g id="Mask group">
+<mask id="mask0_4_144" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="13" y="16" width="155" height="119">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M158.375 113.25V62.9167H52.7917V113.25C52.7917 118.256 55.1754 123.057 59.4184 126.597C63.6614 130.136 69.4161 132.125 75.4167 132.125H135.75C141.751 132.125 147.505 130.136 151.748 126.597C155.991 123.057 158.375 118.256 158.375 113.25Z" fill="white" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M15.0833 62.9167H165.917M67.875 25.1667V37.75M105.583 18.875V37.75M143.292 25.1667V37.75" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_4_144)">
+<path id="Vector_3" d="M0 0H181V151H0V0Z" fill="#0FA958"/>
+</g>
+</g>
+</g>
+</svg>

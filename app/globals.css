@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Inter:wght@400;600;700&family=Merriweather:ital,wght@1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.app {
+  @apply relative z-10 flex justify-center items-center flex-col mx-auto;
+}
+
+/* Nav Component */
+.logo_text {
+  @apply max-sm:hidden font-imprima font-semibold text-lg tracking-wide;
+}
+
+.menu_link {
+  @apply py-1.5 px-5 text-white transition-all hover:text-black text-center text-sm font-imprima flex items-center justify-center;
+}
+
+.banner {
+  @apply h-screen px-16 py-44 bg-cover bg-center w-full bg-[url('/assets/images/banner.jpg')] bg-no-repeat;
+}
+
+.green_btn {
+  @apply rounded-full bg-leafy-green font-normal my-5 py-3 px-5 text-white transition-all text-center text-sm font-imprima flex items-center justify-center;
+}
+
+.page {
+  @apply h-auto bg-leafy-green flex-col justify-center py-7;
+}
+
+.plate {
+  @apply rounded-full;
+}
+
+.white_btn {
+  @apply rounded-full bg-white font-normal my-5 py-3 px-5 text-leafy-green transition-all text-center text-sm font-imprima;
+}
+
+.second_page {
+  @apply flex gap-x-8  pl-16 pr-2 w-full bg-back-grey;
+}
+
+.menu_images {
+  @apply grid gap-5;
+}
+
+.menu {
+  @apply h-full;
+}
+
+.works {
+  @apply h-auto bg-white flex-col justify-center py-7 text-black;
+}
